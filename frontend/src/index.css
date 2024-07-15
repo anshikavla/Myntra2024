@@ -1,4 +1,4 @@
-body {
+body.board {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body.quiz-contest {
+  margin: 0;
+  padding: 0;
+}
+body.quiz-contest{
+  height: 100vh;
+  background-image: linear-gradient(#E773A4,#E75465);
+  font-family: 'poppins';
+
 }

@@ -1,0 +1,42 @@
+export const data = [
+    {
+      question: "Who has been recently appointed as the brand ambassador Myntra? ",
+      option1: "Shah Rukh Khan",
+      option2: "Samantha Akkineni",
+      option3: "Kiara Advani",
+      option4: "Katrina Kaif",
+      ans: 1,
+    },
+    {
+      question: "Which is the top trending hashtagon trending Myntra fwd this week?",
+      option1: "#GatherAround",
+      option2: "#IndiePrint",
+      option3: "#DenimDaze",
+      option4: "#ClassicChecks",
+      ans: 3,
+    },
+    {
+      question: "What is the name of Myntra's biggest sale?",
+      option1: "Myntra End of Season Sale",
+      option2: "Myntra Big Fashion Festival Sale",
+      option3: "Valentines Day Sale",
+      option4: "Right To Fashion Sale",
+      ans: 2,
+    },
+    {
+      question: "Which Bollywood actress launched her clothing line 'All About You' on Myntra?",
+      option1: "Disha Patani",
+      option2: "Priyanka Chopra",
+      option3: "Deepika Padukone",
+      option4: "Aishwariya Rai Bachan",
+      ans: 3,
+    },
+    {
+      question: "What is the name of Myntra's in-house fashion brand?",
+      option1: "Roadster",
+      option2: "Van Heusen",
+      option3: "H&M",
+      option4: "Zara",
+      ans: 1,
+    },
+  ];

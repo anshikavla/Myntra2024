@@ -5,12 +5,18 @@ import Board from './components/board';
 import { Leaderboard } from './components/database';
 import Profiles from './components/profiles';
 import './components/style.css';
+import Quiz from './components/Quiz/Quiz';
+import Result from './components/Quiz/Result';
+import Contest from './components/Quiz/Contest'
 
 function App() {
   return (
     <Router>
       <div className="App" id="main">
         <Routes>
+        <Route exact path="/quiz" element={<Quiz />} />
+        <Route path="/result" element={<Result />} />
+        <Route path="/contest" element={<Contest />} />
           <Route path="/" element={<Board />} />
           <Route path="/results" element={<Results />} />
         </Routes>
@@ -23,7 +29,7 @@ function App() {
 function Results() {
   const today_date = new Date();
   const date = today_date.getDate();
-  if(date===14){
+  if(date===15){
       return(
         <div>
           <h1 id='main'>Results!</h1>
